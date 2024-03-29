@@ -123,7 +123,7 @@ if choice=="Login":
                                 st.success("You are safe")
                             else:
                                 st.success("You have ckd")
-                            st.success(query)                 
+                                            
                         if choice2=="Decision Tree":
                             test_prediction = model[2].predict(tdata)
                             query=test_prediction[0]
@@ -131,7 +131,7 @@ if choice=="Login":
                                 st.success("You are safe")
                             else:
                                 st.success("You have ckd")
-                            st.success(query)
+                            
                         if choice2=="Random Forest":
                             test_prediction = model[3].predict(tdata)
                             query=test_prediction[0]
@@ -139,7 +139,7 @@ if choice=="Login":
                                 st.success("You are safe")
                             else:
                                 st.success("You have ckd")
-                            st.success(query)
+                           
                         if choice2=="Naive Bayes":
                             test_prediction = model[4].predict(tdata)
                             query=test_prediction[0]
@@ -147,7 +147,7 @@ if choice=="Login":
                                 st.success("You are safe")
                             else:
                                 st.success("You have ckd")
-                            st.success(query)
+                           
                         if choice2=="ExtraTreesClassifier":
                             test_prediction = model[5].predict(tdata)
                             query=test_prediction[0]
@@ -155,7 +155,7 @@ if choice=="Login":
                                 st.success("You are safe")
                             else:
                                 st.success("You have ckd")
-                            st.success(query)
+                            
                         if choice2=="VotingClassifier":
                             test_prediction = model[6].predict(tdata)
                             query=test_prediction[0]
@@ -163,7 +163,7 @@ if choice=="Login":
                                 st.success("You are safe")
                             else:
                                 st.success("You have ckd")
-                            st.success(query)
+                           
                             
                 else:
                     st.warning("Incorrect Email/Password")
